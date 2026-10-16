@@ -1,0 +1,5 @@
+* text=auto
+gradlew text eol=lf
+*.bat text eol=crlf
+# The final TSV column is intentionally empty for operations without a permission.
+app/src/main/assets/appops.tsv whitespace=-blank-at-eol

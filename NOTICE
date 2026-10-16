@@ -1,0 +1,8 @@
+Do I Have is licensed under the MIT License. See LICENSE.
+
+The operation identifiers and numeric mapping in app/src/main/assets/appops.tsv
+are derived from Android Open Source Project's AppOpsManager.java (API 37.0).
+Copyright (C) 2012 The Android Open Source Project
+Licensed under the Apache License, Version 2.0.
+https://www.apache.org/licenses/LICENSE-2.0
+Source: https://android.googlesource.com/platform/frameworks/base/+/refs/heads/main/core/java/android/app/AppOpsManager.java

@@ -1,0 +1,179 @@
+# AOSP Android 17 / API 37.0. Generated from SDK AppOpsManager.java. Apache-2.0; see NOTICE.
+0	android:coarse_location	android.permission.ACCESS_COARSE_LOCATION
+1	android:fine_location	android.permission.ACCESS_FINE_LOCATION
+2	android:gps	
+3	android:vibrate	android.permission.VIBRATE
+4	android:read_contacts	android.permission.READ_CONTACTS
+5	android:write_contacts	android.permission.WRITE_CONTACTS
+6	android:read_call_log	android.permission.READ_CALL_LOG
+7	android:write_call_log	android.permission.WRITE_CALL_LOG
+8	android:read_calendar	android.permission.READ_CALENDAR
+9	android:write_calendar	android.permission.WRITE_CALENDAR
+10	android:wifi_scan	android.permission.ACCESS_WIFI_STATE
+11	android:post_notification	android.permission.POST_NOTIFICATIONS
+12	android:neighboring_cells	
+13	android:call_phone	android.permission.CALL_PHONE
+14	android:read_sms	android.permission.READ_SMS
+15	android:write_sms	
+16	android:receive_sms	android.permission.RECEIVE_SMS
+17	android:receive_emergency_broadcast	android.permission.RECEIVE_EMERGENCY_BROADCAST
+18	android:receive_mms	android.permission.RECEIVE_MMS
+19	android:receive_wap_push	android.permission.RECEIVE_WAP_PUSH
+20	android:send_sms	android.permission.SEND_SMS
+21	android:read_icc_sms	android.permission.READ_SMS
+22	android:write_icc_sms	
+23	android:write_settings	android.permission.WRITE_SETTINGS
+24	android:system_alert_window	android.permission.SYSTEM_ALERT_WINDOW
+25	android:access_notifications	android.permission.ACCESS_NOTIFICATIONS
+26	android:camera	android.permission.CAMERA
+27	android:record_audio	android.permission.RECORD_AUDIO
+28	android:play_audio	
+29	android:read_clipboard	
+30	android:write_clipboard	
+31	android:take_media_buttons	
+32	android:take_audio_focus	
+33	android:audio_master_volume	
+34	android:audio_voice_volume	
+35	android:audio_ring_volume	
+36	android:audio_media_volume	
+37	android:audio_alarm_volume	
+38	android:audio_notification_volume	
+39	android:audio_bluetooth_volume	
+40	android:wake_lock	android.permission.WAKE_LOCK
+41	android:monitor_location	
+42	android:monitor_location_high_power	
+43	android:get_usage_stats	android.permission.PACKAGE_USAGE_STATS
+44	android:mute_microphone	
+45	android:toast_window	
+46	android:project_media	
+47	android:activate_vpn	
+48	android:write_wallpaper	
+49	android:assist_structure	
+50	android:assist_screenshot	
+51	android:read_phone_state	android.permission.READ_PHONE_STATE
+52	android:add_voicemail	com.android.voicemail.permission.ADD_VOICEMAIL
+53	android:use_sip	android.permission.USE_SIP
+54	android:process_outgoing_calls	android.permission.PROCESS_OUTGOING_CALLS
+55	android:use_fingerprint	android.permission.USE_FINGERPRINT
+56	android:body_sensors	android.permission.BODY_SENSORS
+57	android:read_cell_broadcasts	android.permission.READ_CELL_BROADCASTS
+58	android:mock_location	
+59	android:read_external_storage	android.permission.READ_EXTERNAL_STORAGE
+60	android:write_external_storage	android.permission.WRITE_EXTERNAL_STORAGE
+61	android:turn_screen_on	android.permission.TURN_SCREEN_ON
+62	android:get_accounts	android.permission.GET_ACCOUNTS
+63	android:run_in_background	
+64	android:audio_accessibility_volume	
+65	android:read_phone_numbers	android.permission.READ_PHONE_NUMBERS
+66	android:request_install_packages	android.permission.REQUEST_INSTALL_PACKAGES
+67	android:picture_in_picture	
+68	android:instant_app_start_foreground	android.permission.INSTANT_APP_FOREGROUND_SERVICE
+69	android:answer_phone_calls	android.permission.ANSWER_PHONE_CALLS
+70	android:run_any_in_background	
+71	android:change_wifi_state	android.permission.CHANGE_WIFI_STATE
+72	android:request_delete_packages	android.permission.REQUEST_DELETE_PACKAGES
+73	android:bind_accessibility_service	android.permission.BIND_ACCESSIBILITY_SERVICE
+74	android:accept_handover	android.permission.ACCEPT_HANDOVER
+75	android:manage_ipsec_tunnels	android.permission.MANAGE_IPSEC_TUNNELS
+76	android:start_foreground	android.permission.FOREGROUND_SERVICE
+77	android:bluetooth_scan	android.permission.BLUETOOTH_SCAN
+78	android:use_biometric	android.permission.USE_BIOMETRIC
+79	android:activity_recognition	android.permission.ACTIVITY_RECOGNITION
+80	android:sms_financial_transactions	android.permission.SMS_FINANCIAL_TRANSACTIONS
+81	android:read_media_audio	android.permission.READ_MEDIA_AUDIO
+82	android:write_media_audio	
+83	android:read_media_video	android.permission.READ_MEDIA_VIDEO
+84	android:write_media_video	
+85	android:read_media_images	android.permission.READ_MEDIA_IMAGES
+86	android:write_media_images	
+87	android:legacy_storage	
+88	android:access_accessibility	
+89	android:read_device_identifiers	
+90	android:access_media_location	android.permission.ACCESS_MEDIA_LOCATION
+91	android:query_all_packages	
+92	android:manage_external_storage	android.permission.MANAGE_EXTERNAL_STORAGE
+93	android:interact_across_profiles	android.permission.INTERACT_ACROSS_PROFILES
+94	android:activate_platform_vpn	
+95	android:loader_usage_stats	android.permission.LOADER_USAGE_STATS
+97	android:auto_revoke_permissions_if_unused	
+98	android:auto_revoke_managed_by_installer	
+99	android:no_isolated_storage	
+100	android:phone_call_microphone	
+101	android:phone_call_camera	
+102	android:record_audio_hotword	
+103	android:manage_ongoing_calls	android.permission.MANAGE_ONGOING_CALLS
+104	android:manage_credentials	
+105	android:use_icc_auth_with_device_identifier	android.permission.USE_ICC_AUTH_WITH_DEVICE_IDENTIFIER
+106	android:record_audio_output	
+107	android:schedule_exact_alarm	android.permission.SCHEDULE_EXACT_ALARM
+108	android:fine_location_source	
+109	android:coarse_location_source	
+110	android:manage_media	android.permission.MANAGE_MEDIA
+111	android:bluetooth_connect	android.permission.BLUETOOTH_CONNECT
+112	android:uwb_ranging	android.permission.UWB_RANGING
+113	android:activity_recognition_source	
+114	android:bluetooth_advertise	android.permission.BLUETOOTH_ADVERTISE
+115	android:record_incoming_phone_audio	
+116	android:nearby_wifi_devices	android.permission.NEARBY_WIFI_DEVICES
+117	android:establish_vpn_service	
+118	android:establish_vpn_manager	
+119	android:access_restricted_settings	
+120	android:receive_ambient_trigger_audio	
+121	android:receive_explicit_user_interaction_audio	
+122	android:run_user_initiated_jobs	
+123	android:read_media_visual_user_selected	android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+124	android:system_exempt_from_suspension	
+125	android:system_exempt_from_dismissible_notifications	
+126	android:read_write_health_data	
+127	android:foreground_service_special_use	android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+128	android:system_exempt_from_power_restrictions	
+129	android:system_exempt_from_hibernation	
+130	android:system_exempt_from_activity_bg_start_restriction	
+131	android:capture_consentless_bugreport_on_userdebug_build	android.permission.CAPTURE_CONSENTLESS_BUGREPORT_ON_USERDEBUG_BUILD
+132	android:deprecated_2	
+133	android:use_full_screen_intent	android.permission.USE_FULL_SCREEN_INTENT
+134	android:camera_sandboxed	
+135	android:record_audio_sandboxed	
+136	android:receive_sandbox_trigger_audio	android.permission.RECEIVE_SANDBOX_TRIGGER_AUDIO
+137	android:deprecated_3	
+138	android:create_accessibility_overlay	
+139	android:media_routing_control	android.permission.MEDIA_ROUTING_CONTROL
+140	android:enable_mobile_data_by_user	
+141	android:reserved_for_testing	
+142	android:rapid_clear_notifications_by_listener	
+143	android:read_system_grammatical_gender	android.permission.READ_SYSTEM_GRAMMATICAL_GENDER
+144	android:deprecated_4	
+145	android:archive_icon_overlay	
+146	android:unarchival_support	
+147	android:emergency_location	android.permission.LOCATION_BYPASS
+148	android:receive_sensitive_notifications	
+149	android:read_heart_rate	
+150	android:read_skin_temperature	
+151	android:ranging	
+152	android:read_oxygen_saturation	
+153	android:write_system_preferences	
+154	android:control_audio	
+155	android:control_audio_partial	
+156	android:eye_tracking_coarse	
+157	android:eye_tracking_fine	
+158	android:face_tracking	
+159	android:hand_tracking	
+160	android:head_tracking	
+161	android:scene_understanding_coarse	
+162	android:scene_understanding_fine	
+163	android:post_promoted_notifications	android.permission.POST_PROMOTED_NOTIFICATIONS
+164	android:system_application_overlay	
+165	android:read_cell_identity	
+166	android:read_cell_info	
+167	android:computer_control	
+168	android:read_otp_sms	
+169	android:access_local_network	
+170	android:read_blood_pressure	
+171	android:read_heart_rate_variability	
+172	android:read_respiratory_rate	
+173	android:read_vo2_max	
+174	android:continue_across_devices	
+175	android:read_screen_context	
+176	android:read_restricted_messages	
+177	android:write_restricted_messages	
+178	android:access_hid	

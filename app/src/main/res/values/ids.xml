@@ -1,0 +1,13 @@
+<resources>
+    <item name="search_input" type="id" />
+    <item name="clear_search" type="id" />
+    <item name="entry_list" type="id" />
+    <item name="nav_permissions" type="id" />
+    <item name="nav_ops" type="id" />
+    <item name="nav_settings" type="id" />
+    <item name="op_status" type="id" />
+    <item name="state_filters" type="id" />
+    <item name="setting_language" type="id" />
+    <item name="setting_theme" type="id" />
+    <item name="setting_license" type="id" />
+</resources>
